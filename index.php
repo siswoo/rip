@@ -15,37 +15,19 @@
 </head>
 <body>
 
-<div class="container" style="display:none;">
+<div class="container">
 	<input type="hidden" id="condicion" name="condicion" value="login1">
     <div class="seccion1" style="margin-top: 3rem;">
       <div class="row">
         <div class="container">
-          <div class="col-12" class="text-center">
-            <p class="text-center" style="font-weight: bold; font-size: 35px; text-transform: uppercase;">Datos de Ingreso</p>
-          </div>
-          <div class="form-group form-check">
-            <label for="usuario" style="font-weight: bold;">Usuario</label>
-            <input type="text" class="form-control" name="usuario" id="usuario" placeholder="" value="" autocomplete="off" required>
-            <div class="ml-1 mt-1" id="error1" style="display: none; font-size: 12px; font-weight: bold; color: red;">Este campo no debe estar vacio.</div>
-            </div>
-          <div class="form-group form-check">
-            <label for="password" style="font-weight: bold;">Clave</label>
-            <input type="password" class="form-control" name="password" id="password" placeholder="" value="" autocomplete="off" required>
-            <div class="ml-1 mt-1" id="error2" style="display: none; font-size: 12px; font-weight: bold; color: red;">Este campo no debe estar vacio.</div>
-            <small id="emailHelp" class="form-text text-muted">Los datos de ingreso son totalmente confidenciales.</small>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <button type="button" id="submit" class="btn btn-success" onclick="login1();">INGRESAR</button>
-            </div>
+          <div class="col-12 text-center" class="text-center">
+          	<a href="folders1.php">
+            	<button type="button" class="btn btn-info">FOLDERS</button>
+            </a>
           </div>
         </div>
       </div>
     </div>
-</div>
-
-<div class="container">
-	<div class="col-12" style=""></div>
 </div>
 
 </body>

@@ -1,5 +1,5 @@
 <?php
-$servidor = "localhost";
+$servidor = "15.204.141.220";
 $usuario = "artwork_juanmaldonado";
 $contrasena = "juanmaldonado123";
 $basededatos = "artwork_modulo1";
