@@ -381,3 +381,13 @@ CREATE TABLE folders1 (
 INSERT INTO folders1 (nombre,estatus,responsable,fecha_inicio) VALUES 
 ('Spot_Color',1,1,'2022-06-22'),
 ('4_Color',1,1,'2022-06-22');
+
+DROP TABLE IF EXISTS colas;
+CREATE TABLE colas (
+	id INT AUTO_INCREMENT,
+	pdf VARCHAR(250) NOT NULL,
+	estatus INT NOT NULL,
+	fecha_inicio DATE NOT NULL,
+	hora_inicio TIME NOT NULL,
+	PRIMARY KEY (id)
+); ALTER TABLE colas CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;

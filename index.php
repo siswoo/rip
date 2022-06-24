@@ -24,6 +24,9 @@
           	<a href="folders1.php">
             	<button type="button" class="btn btn-info">FOLDERS</button>
             </a>
+            <a href="prueba1.php">
+            	<button type="button" class="btn btn-info">PRUEBA 1</button>
+            </a>
           </div>
         </div>
       </div>
