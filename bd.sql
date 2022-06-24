@@ -367,3 +367,17 @@ CREATE TABLE horas1 (
 	fecha_inicio DATE NOT NULL,
 	PRIMARY KEY (id)
 ); ALTER TABLE horas1 CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+DROP TABLE IF EXISTS folders1;
+CREATE TABLE folders1 (
+	id INT AUTO_INCREMENT,
+	nombre VARCHAR(250) NOT NULL,
+	estatus INT NOT NULL,
+	responsable INT NOT NULL,
+	fecha_inicio DATE NOT NULL,
+	PRIMARY KEY (id)
+); ALTER TABLE folders1 CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+INSERT INTO folders1 (nombre,estatus,responsable,fecha_inicio) VALUES 
+('Spot_Color',1,1,'2022-06-22'),
+('4_Color',1,1,'2022-06-22');
